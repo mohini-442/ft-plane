@@ -15,6 +15,7 @@ import Tabsection from './components/Tabsection';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Preloader from './components/Loader';
+import Section2 from './components/Section2';
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
         <Navsection />
       </div>
       <Tabsection />
-      <Ourfeatures />
+      <Section2 />
       <Letsfly />
       <Populartickets />
       <Besttravellers />

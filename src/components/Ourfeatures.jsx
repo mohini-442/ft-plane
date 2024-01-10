@@ -4,6 +4,7 @@ import discount from '../assets/images/svg/discount.svg'
 import headphone from '../assets/images/svg/headphone.svg'
 import lock from '../assets/images/svg/lock.svg'
 import arrow from "../assets/images/svg/arrow.svg";
+
 const featurescard = [
     {
         svg: aeroplane,
@@ -15,7 +16,8 @@ const featurescard = [
         svg: discount,
         heading: "More Discount",
         para: "Suspendisse ultrices nibh non cursus sagittis. Morbi dictum consequat ex, quis finibus magna.",
-        circle: arrow
+        circle: arrow,
+        botm: "lg:-translate-y-[30px]",
     },
     {
         svg: lock,
@@ -27,13 +29,14 @@ const featurescard = [
         svg: headphone,
         heading: "Online Support",
         para: "Suspendisse ultrices nibh non cursus sagittis. Morbi dictum consequat ex, quis finibus magna.",
-        circle: arrow
+        circle: arrow,
+        botm: "lg:-translate-y-[30px]",
     },
 ];
 const Ourfeatures = () => {
     const list = featurescard.map((featurescard) => (
         <div className="xl:w-1/4 lg:w-1/3 md:w-1/2 sm:w-1/2 w-full flex justify-center px-4 pt-4 pt-lg-0">
-            <div className="rounded-[185px] max-w-[281.63px] bg-white py-[42px] px-[21px] shadow-[0px_100px_200px_0px_#0117361A] flex justify-center flex-col items-center hover:scale-105 duration-[2s]">
+            <div className={`rounded-[185px] max-w-[281.63px] bg-white py-[42px] px-[21px] shadow-[0px_100px_200px_0px_#0117361A] flex justify-center flex-col items-center mt-5 mt-lg-0 hover:scale-105 duration-[2s] ${featurescard.botm}` }>
                 <div className="w-[70px] h-[70px] rounded-full bg-[#313EF70D] flex justify-center items-center">
                     {" "}
                     <img src={featurescard.svg} alt="img-1" />
@@ -55,8 +58,7 @@ const Ourfeatures = () => {
     ));
     return (
         <div>
-            <div className="max-w-[1140px] mx-auto px-3 py-12 mt-[-14%]" data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom">
+            <div className="max-w-[1140px] mx-auto px-3 py-12 mt-[-14%]">
                 <h2 className=" font-Monstserrat text-[40px] text-[#030522] font-bold text-center ">Our Features</h2>
                 <div className="flex flex-wrap flex-row py-5 justify-center">
                     {list}

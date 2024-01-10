@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 import earth from "../assets/images/png/earth.png";
 import card from "../assets/images/png/card.png";
 import layer from "../assets/images/png/layer.png";
+import dootedline from '../assets/images/png/dootedline.png'
+
 const Populartickets = () => {
     const first = React.useRef(null);
     const settings = {
@@ -37,7 +39,7 @@ const Populartickets = () => {
         <div className="bg-[#010223] overflow-hidden mt-16">
             <div className=" max-w-[1040px] mx-auto px-3 py-[50px] text-center lg:text-start">
                 <div className=" flex flex-wrap flex-row -mx-3 py-8">
-                    <div className="lg:w-1/2 w-full px-3 d-flex items-center justify-center" data-aos="fade-up">
+                    <div className="lg:w-1/2 md:w-1/2 w-full px-3 d-flex items-center justify-center" data-aos="fade-up">
                         <h2 className=" text-white sm:text-[40px] text-2xl font-bold sm:leading-[60px] leading-[30px] tracking-[0.6px] capitalize lg:max-w-[496px] font-Monstserrat">
                             Book Popular Flight Tickets
                         </h2>
@@ -48,10 +50,10 @@ const Populartickets = () => {
                         <img
                             src={earth}
                             alt="worldairplane"
-                            className=" flex justify-center  w-full max-w-[315px] h-[315px] mx-auto"
+                            className=" flex justify-center w-full max-w-[315px] h-[315px]"
                         />
                     </div>
-                    <div className="lg:w-1/2 w-full px-3 relative text-center" data-aos="fade-up">
+                    <div className="lg:w-1/2 md:w-1/2 w-full px-3 relative text-center relaive" data-aos="fade-up">
                         <Slider {...settings} ref={first}>
                             <div className="flex justify-center items-center w-100 mx-auto">
                                 <img
@@ -96,6 +98,7 @@ const Populartickets = () => {
                                 />
                             </div>
                         </Slider>
+                        <img src={dootedline} alt="dootedline" className="absolute right-[-7%] top-[48%]"/>
                         <div className="sm:block flex gap-[11px] absolute xl:right-[-12%] right-[1%] bottom-[0%] align-items-center flex-col text-end justify-content-end">
                             <button
                                 className=" hidden sm:block bg-[#1A1B39] hover:bg-[#313EF7] duration-300 hover:shadow-[0_10px_14px_0px_#0B0F50;]  py-[12px] px-[16px] mb-3 rounded-full"
