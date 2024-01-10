@@ -167,7 +167,7 @@ const Slidersection = () => {
                     <div className="md:w-7/12 w-full px-3 py-5">
                         <img src={img1} alt="1" className="w-full" />
                     </div>
-                    <div className="md:w-5/12 w-full px-3 relative flex flex-col justify-center shadow-[0px_100px_200px_0px_#0117361A] rounded-[20px] py-3  mt-9 mt-lg-0">
+                    <div className="md:w-5/12 w-full px-3 relative max-w-[500px] mx-auto flex flex-col justify-center shadow-[0px_100px_200px_0px_#0117361A] rounded-[20px] py-3  mt-9 mt-lg-0">
                         <div className="absolute top-[100%] left-[30%]">
                             <div className="flex gap-4 mt-8">
                                 <div className="pl-[35px]">
