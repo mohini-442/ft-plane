@@ -65,8 +65,8 @@ const Footersection = () => {
                                 <div className='xl:w-2/12 sm:w-4/12 w-1/2 px-3'>
                                     <h2 className='text-white font-Montserrat font-bold text-2xl'>Support</h2>
                                     <ul>
-                                        <li className='pt-1'><a href="" className='text-[#A7A7A7] text-base font-normal font-Monstserrat hover:text-[#fff] duration-[200ms]'>Test Zoom</a></li>
-                                        <li className='pt-2'><a href="" className='text-[#A7A7A7] text-base font-normal font-Monstserrat hover:text-[#fff] duration-[200ms]'>Account</a></li>
+                                        <li className='pt-2'><a href="" className='text-[#A7A7A7] text-base font-normal font-Monstserrat hover:text-[#fff] duration-[200ms]'>Test Zoom</a></li>
+                                        <li className='pt-1'><a href="" className='text-[#A7A7A7] text-base font-normal font-Monstserrat hover:text-[#fff] duration-[200ms]'>Account</a></li>
                                         <li className='pt-2'><a href="" className='text-[#A7A7A7] text-base font-normal font-Monstserrat text-nowrap hover:text-[#fff] duration-[200ms]'>Support Center</a></li>
                                         <li className='pt-2'><a href="" className='text-[#A7A7A7] text-base font-normal font-Monstserrat hover:text-[#fff] duration-[200ms] text-nowrap'>Live Training</a></li>
                                         <li className='pt-2'><a href="" className='text-[#A7A7A7] text-base font-normal font-Monstserrat hover:text-[#fff] duration-[200ms]'>Accessibility</a></li>

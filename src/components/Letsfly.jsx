@@ -38,7 +38,7 @@ const Letsfly = () => {
                                 <img src={dootedline} alt="dootedline" className='absolute top-[20%] left-[1%] z-[-1]' />
                             </div>
                             <div className='flex items-center pt-5'>
-                                <button className='text-white font-Monstserrat font-semibold text-[16px] rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5 mt-3 shadow-[ 0px_10px_14px_ rgba(49, 62, 247, 0.25)]'>Book Now</button>
+                                <button className='text-white font-Monstserrat font-semibold text-[16px] rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5 mt-3 shadow-[ 0px_10px_14px_ rgba(49, 62, 247, 0.25)]  hover:scale-105 duration-[0.5s]'>Book Now</button>
                             </div>
                         </div>
                     </div>

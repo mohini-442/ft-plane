@@ -8,7 +8,7 @@ const Tabsection = () => {
     return (
         <div className='pt-24'>
             <div className='max-w-[1140px] px-3 mx-auto -translate-y-56 pt-5'>
-                <div className='bg-[#fff] rounded-[20px_20px_0px_0px] flex lg:max-w-lg max-w-[282px] h-14 gap- 2 0 border-b border-[#F3F4F6] '>
+                <div className='bg-[#fff] rounded-[20px_20px_0px_0px] flex sm:max-w-lg max-w-[282px] h-14 gap- 2 0 border-b border-[#F3F4F6] '>
                     <div onClick={() => handleTab1('tab1')} className={`${active === "tab1" ? "bg-[#313EF7] text-white" : "text-[#030522]"}  w-4/12 px-3 rounded-[20px_2px_0px_0px] flex justify-center items-center after:h-11  relative  after:w-px after:top-[-6] after:bg-[#F3F4F6] after:right-0 after:absolute  `}  >
                         <button className='font-semibold text-lg font-Montserrat'>Economy</button>
                     </div>
@@ -97,8 +97,8 @@ const Tabsection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='flex items-center  justify-center py-5'>
-                            <button className='text-white font-Montserrat font-semibold text-base rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5 mt-3 shadow-[0px_10px_14px_0px_#313EF740]'>Book Now</button>
+                        <div className='flex items-center justify-center py-5'>
+                            <button className='text-white font-Montserrat font-semibold text-base rounded-[56px] bg-[#313EF7] border-0 px-11 py-3.5 mt-3 shadow-[0px_10px_14px_0px_#313EF740]  hover:scale-105 duration-[0.5s]'>Book Now</button>
                         </div>
                     </div>
                     : ""}
@@ -260,7 +260,7 @@ const Tabsection = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='flex items-center  justify-center py-5'>
+                            <div className='flex items-center justify-center py-5'>
                                 <button className='text-white font-Montserrat font-semibold text-base rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5 mt-3 shadow-[0px_10px_14px_0px_#313EF740]'>Book Now</button>
                             </div>
                         </div>
