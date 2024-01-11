@@ -2,6 +2,8 @@ import React from 'react'
 import logo from '../assets/images/png/logo.png'
 
 const Footersection = () => {
+    const today = new Date()
+    const year = today.getFullYear();
     return (
         <>
             <div className='pt-5'>
@@ -82,7 +84,7 @@ const Footersection = () => {
                                 <path d="M7.50049 5.16102C8.31813 5.16508 9.09283 5.5276 9.61995 6.15255C9.74556 6.29952 9.96644 6.31704 10.1135 6.19154C10.2605 6.06603 10.278 5.84504 10.1525 5.69796C8.9026 4.22343 6.69406 4.04121 5.21953 5.29101C3.74489 6.54081 3.56267 8.74946 4.81257 10.224C6.06238 11.6985 8.27092 11.8807 9.74556 10.6309C9.8921 10.5067 10.0282 10.3706 10.1525 10.224C10.278 10.0769 10.2605 9.85603 10.1135 9.73042C9.96644 9.60491 9.74556 9.62243 9.61995 9.7694C8.61805 10.9432 6.85428 11.0824 5.68052 10.0804C4.50688 9.07855 4.3676 7.31477 5.36949 6.14102C5.90173 5.51766 6.68081 5.15931 7.50049 5.16102Z" fill="white" />
                             </g>
                         </svg>
-                        <p className='text-white font-Monstserrat text-[14px]'>FT PLANE 2022 All right reserved</p>
+                        <p className='text-white font-Monstserrat text-[14px]'>FT PLANE {year} All right reserved</p>
                     </div>
                 </div>
             </div>

@@ -85,7 +85,7 @@ const carddata = [
     },
     {
         img: sliderpic1,
-        heading: "Roshni Sahani",
+        heading: "Jaylon Vaccaro",
         svg: (
             <>
                 <svg
